@@ -10,10 +10,9 @@
 		B53E37441B991479008E3E83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E37431B991479008E3E83 /* main.m */; };
 		B53E37471B991479008E3E83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E37461B991479008E3E83 /* AppDelegate.m */; };
 		B53E374A1B991479008E3E83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E37491B991479008E3E83 /* ViewController.m */; };
-		B53E374D1B991479008E3E83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B53E374B1B991479008E3E83 /* Main.storyboard */; };
 		B53E374F1B991479008E3E83 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B53E374E1B991479008E3E83 /* Images.xcassets */; };
-		B53E37521B99147A008E3E83 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B53E37501B99147A008E3E83 /* LaunchScreen.xib */; };
 		B53E375E1B99147A008E3E83 /* Photo_BombersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E375D1B99147A008E3E83 /* Photo_BombersTests.m */; };
+		B53E37691B991495008E3E83 /* PhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E37681B991495008E3E83 /* PhotosViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +33,12 @@
 		B53E37461B991479008E3E83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B53E37481B991479008E3E83 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B53E37491B991479008E3E83 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B53E374C1B991479008E3E83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B53E374E1B991479008E3E83 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B53E37511B99147A008E3E83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B53E37571B99147A008E3E83 /* Photo BombersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Photo BombersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B53E375C1B99147A008E3E83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B53E375D1B99147A008E3E83 /* Photo_BombersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Photo_BombersTests.m; sourceTree = "<group>"; };
+		B53E37671B991495008E3E83 /* PhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotosViewController.h; path = ../PhotosViewController.h; sourceTree = "<group>"; };
+		B53E37681B991495008E3E83 /* PhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotosViewController.m; path = ../PhotosViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +84,9 @@
 				B53E37461B991479008E3E83 /* AppDelegate.m */,
 				B53E37481B991479008E3E83 /* ViewController.h */,
 				B53E37491B991479008E3E83 /* ViewController.m */,
-				B53E374B1B991479008E3E83 /* Main.storyboard */,
+				B53E37671B991495008E3E83 /* PhotosViewController.h */,
+				B53E37681B991495008E3E83 /* PhotosViewController.m */,
 				B53E374E1B991479008E3E83 /* Images.xcassets */,
-				B53E37501B99147A008E3E83 /* LaunchScreen.xib */,
 				B53E37411B991479008E3E83 /* Supporting Files */,
 			);
 			path = "Photo Bombers";
@@ -168,6 +167,7 @@
 				TargetAttributes = {
 					B53E373D1B991479008E3E83 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = FNS9STWV6U;
 					};
 					B53E37561B99147A008E3E83 = {
 						CreatedOnToolsVersion = 6.4;
@@ -199,8 +199,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B53E374D1B991479008E3E83 /* Main.storyboard in Resources */,
-				B53E37521B99147A008E3E83 /* LaunchScreen.xib in Resources */,
 				B53E374F1B991479008E3E83 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B53E374A1B991479008E3E83 /* ViewController.m in Sources */,
+				B53E37691B991495008E3E83 /* PhotosViewController.m in Sources */,
 				B53E37471B991479008E3E83 /* AppDelegate.m in Sources */,
 				B53E37441B991479008E3E83 /* main.m in Sources */,
 			);
@@ -242,25 +241,6 @@
 			targetProxy = B53E37581B99147A008E3E83 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		B53E374B1B991479008E3E83 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B53E374C1B991479008E3E83 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B53E37501B99147A008E3E83 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B53E37511B99147A008E3E83 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B53E375F1B99147A008E3E83 /* Debug */ = {
@@ -347,6 +327,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Photo Bombers/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,6 +338,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Photo Bombers/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
