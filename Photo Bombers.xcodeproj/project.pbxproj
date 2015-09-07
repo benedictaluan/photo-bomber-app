@@ -14,6 +14,8 @@
 		B53E375E1B99147A008E3E83 /* Photo_BombersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E375D1B99147A008E3E83 /* Photo_BombersTests.m */; };
 		B53E37691B991495008E3E83 /* PhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E37681B991495008E3E83 /* PhotosViewController.m */; };
 		B53E37721B9CEDCD008E3E83 /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E37711B9CEDCD008E3E83 /* PhotoCell.m */; };
+		B53E37761B9D463B008E3E83 /* PhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E37751B9D463B008E3E83 /* PhotoController.m */; };
+		B53E37791B9D488B008E3E83 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E37781B9D488B008E3E83 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,10 @@
 		B53E37681B991495008E3E83 /* PhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotosViewController.m; path = ../PhotosViewController.m; sourceTree = "<group>"; };
 		B53E37701B9CEDCD008E3E83 /* PhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
 		B53E37711B9CEDCD008E3E83 /* PhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
+		B53E37741B9D463B008E3E83 /* PhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoController.h; sourceTree = "<group>"; };
+		B53E37751B9D463B008E3E83 /* PhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoController.m; sourceTree = "<group>"; };
+		B53E37771B9D488B008E3E83 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		B53E37781B9D488B008E3E83 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		C2A72DCDE9E89D78B69EF38C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		D5201CE30AAF9EC4DBC9E159 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,6 +97,10 @@
 				B53E37461B991479008E3E83 /* AppDelegate.m */,
 				B53E37671B991495008E3E83 /* PhotosViewController.h */,
 				B53E37681B991495008E3E83 /* PhotosViewController.m */,
+				B53E37741B9D463B008E3E83 /* PhotoController.h */,
+				B53E37751B9D463B008E3E83 /* PhotoController.m */,
+				B53E37771B9D488B008E3E83 /* DetailViewController.h */,
+				B53E37781B9D488B008E3E83 /* DetailViewController.m */,
 				B53E37701B9CEDCD008E3E83 /* PhotoCell.h */,
 				B53E37711B9CEDCD008E3E83 /* PhotoCell.m */,
 				B53E374E1B991479008E3E83 /* Images.xcassets */,
@@ -280,6 +290,8 @@
 				B53E37691B991495008E3E83 /* PhotosViewController.m in Sources */,
 				B53E37471B991479008E3E83 /* AppDelegate.m in Sources */,
 				B53E37441B991479008E3E83 /* main.m in Sources */,
+				B53E37761B9D463B008E3E83 /* PhotoController.m in Sources */,
+				B53E37791B9D488B008E3E83 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,8 @@
 
 #import "PhotosViewController.h"
 #import "PhotoCell.h"
+#import "DetailViewController.h"
+
 #import <SimpleAuth/SimpleAuth.h>
 
 @interface PhotosViewController ()
@@ -41,26 +43,15 @@
     self.accessToken = [userDefauls objectForKey:@"accessToken"];
     
     if (self.accessToken == nil) {
-        [SimpleAuth authorize:@"instagram" completion:^(NSDictionary *responseObject, NSError *error) {
-            NSString *accessToken = responseObject[@"credentials"][@"token"];
-            
-            [userDefauls setObject:accessToken forKey:@"accessToken"];
+        [SimpleAuth authorize:@"instagram" options:@{@"scope": @[@"likes"]} completion:^(NSDictionary *responseObject, NSError *error) {
+            self.accessToken = responseObject[@"credentials"][@"token"];
+            [userDefauls setObject:self.accessToken forKey:@"accessToken"];
             [userDefauls synchronize];
+            [self refresh];
         }];
     } else {
         [self refresh];
     }
-    
-//    NSURL *url = [[NSURL alloc] initWithString:@"http://blog.teamtreehouse.com/api/get_recent_summary"];
-//    NSURLSession *session = [NSURLSession sharedSession];
-//    NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
-//    NSURLSessionDownloadTask *task = [session downloadTaskWithRequest:request completionHandler:^(NSURL *location, NSURLResponse *response, NSError *error) {
-//        
-//        NSString *text = [[NSString alloc] initWithContentsOfURL:location encoding:NSUTF8StringEncoding error:nil];
-//        NSLog(@"Response: %@", text);
-//    }];
-//    
-//    [task resume];
 }
 
 - (void)refresh {
@@ -94,6 +85,15 @@
     cell.photo = self.photos[indexPath.row];
     
     return cell;
+}
+
+- (void)collectionView:(UICollectionView *)collectionView didDeselectItemAtIndexPath:(NSIndexPath *)indexPath {
+    NSDictionary *photo = self.photos[indexPath.row];
+    
+    DetailViewController *viewController = [[DetailViewController alloc] init];
+    viewController.photo = photo;
+    
+    [self presentViewController:viewController animated:YES completion:nil];
 }
 
 @end

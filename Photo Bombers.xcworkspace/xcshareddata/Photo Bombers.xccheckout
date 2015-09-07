@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FAD5ECF2-4E78-45CF-9937-C8DC221F7364</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Photo Bombers</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>74E9A8CB17E3882DCF490A47229ADF4B817B7D54</key>
+		<string>github.com:benedictaluan/photo-bomber-app.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Photo Bombers.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>74E9A8CB17E3882DCF490A47229ADF4B817B7D54</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:benedictaluan/photo-bomber-app.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>74E9A8CB17E3882DCF490A47229ADF4B817B7D54</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>74E9A8CB17E3882DCF490A47229ADF4B817B7D54</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Photo%20Bombers</string>
+		</dict>
+	</array>
+</dict>
+</plist>
